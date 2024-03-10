@@ -78,25 +78,25 @@ class CustomListTileWidget extends StatelessWidget {
                },
             );
           }),
-          // trailing: Column(
-          //   children: [
-          //     const Text("2 min ago"),
-          //     const SizedBox(height: 10,),
-          //     Container(
-          //       height: 25,
-          //       width: 25,                
-          //       decoration: BoxDecoration(
-          //         color: const Color(0xFFFE4A49),
-          //         borderRadius: BorderRadius.circular(50)
-          //       ),
-          //       child: const Center(
-          //         child: Text("1", style: TextStyle(
-          //           color: Colors.white
-          //         ),),
-          //       ),
-          //     ),
-          //   ],
-          // ),
+          trailing: Column(
+            children: [
+              const Text("2 min ago"),
+              const SizedBox(height: 10,),
+              Container(
+                height: 25,
+                width: 25,                
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFE4A49),
+                  borderRadius: BorderRadius.circular(50)
+                ),
+                child: const Center(
+                  child: Text("1", style: TextStyle(
+                    color: Colors.white
+                  ),),
+                ),
+              ),
+            ],
+          ),
           title: Text(users.name!),
           subtitle: const Text("How are you?"),
         ),
